@@ -1,0 +1,23 @@
+/* ---- CSS Demo ---- */
+body{
+  background-color: aquamarine;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---- Global Styles ---- */
+
+body{
+font-family: "Carrois Gothic", sans-serif;
+}
+
+header.primary{
+
+}
