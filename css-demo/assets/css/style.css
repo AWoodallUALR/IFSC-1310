@@ -1,0 +1,60 @@
+/* CSS Demo Stylesheet */
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+body{
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin:0;
+}
+
+main{
+
+}
+
+header.primary{
+background-color:#45C4B0;
+color:white;
+text-align: center;
+text-shadow: 1px 1px #000;
+padding: 20px 40px;
+}
+
+header.primary h1{
+font-size: 2.4rem;
+margin: 20px 0 0px;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size: 1.3rem;
+    margin: 0;
+    letter-spacing: .5px;
+}
+
+nav.primary{
+}
+nav.primary ul{
+    padding:0;
+}
+nav.primary ul li{
+    list-style-type:none;
+}
+nav.primary ul li a {
+    color:white;
+}
