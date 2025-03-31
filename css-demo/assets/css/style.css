@@ -105,6 +105,9 @@ nav.primary ul li a:hover{
     flex-direction:row;
     justify-content:center;
     gap:30px;
+    border-top:1px solid #cccccc;
+    border-bottom:1px solid #cccccc;
+    padding:40px 0;
 }
 
 #blog article.post{
